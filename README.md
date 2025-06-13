@@ -1,16 +1,16 @@
-## Hi there 👋
+# Proyecto de María Bárbara Zavala
 
-<!--
-**mariabarbarazav/mariabarbarazav** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Este repositorio forma parte del blog y escuela de conocimiento esotérico y filosofía simbólica.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## ⚠️ Derechos de Autora
+
+Este proyecto es una obra original de **María Bárbara Zavala**, creado como parte de su blog, escuela esotérica y propuesta filosófica.
+
+📜 **Licencia:** Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International  
+🔒 **Uso prohibido sin permiso:** No está permitido modificar, reutilizar ni comercializar este contenido en ninguna forma sin autorización expresa.
+
+Toda copia, imitación, apropiación de ideas, símbolos, lenguaje o estructura será considerada una violación a los derechos de autor y propiedad intelectual.
+
+© María Bárbara Zavala | Todos los derechos reservados.

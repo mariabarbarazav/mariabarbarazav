@@ -1,130 +1,133 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BioLink - Maria Barbara Zavala</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Poppins', sans-serif;
-            background-color: #ffffff;
-            color: #000000;
-        }
-        .cover {
-            width: 100%;
-            height: 300px;
-            background-color: #000000;
-            position: relative;
-        }
-        .profile-pic {
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
-            border: 4px solid #000000;
-            position: absolute;
-            left: 10px;
-            bottom: -90px;
-            object-fit: cover;
-        }
-        .content {
-            max-width: 800px; /* Ancho máximo para escritorio */
-            width: 90%; /* Ancho relativo para adaptarse a móviles */
-            margin: 0 0 0 10px; /* Alineado a la izquierda en escritorio */
-            padding: 20px;
-            text-align: left;
-        }
-        .name {
-            font-family: 'Poppins', sans-serif;
-            font-size: 18px;
-            font-weight: bold;
-            margin-top: 100px;
-            text-align: left; /* Solo alineado a la izquierda */
-        }
-        .subtitle {
-            font-size: 14px;
-            margin: 5px 0;
-            text-align: left; /* Solo alineado a la izquierda */
-        }
-        .section-title {
-            font-size: 14px;
-            font-weight: bold;
-            margin: 20px 0 10px;
-            text-align: left; /* Solo alineado a la izquierda */
-        }
-        .bio {
-            font-size: 12px;
-            line-height: 1.5;
-            letter-spacing: 0; /* Interletrado en 0 */
-            word-spacing: -0.5px; /* Reduce separación entre palabras */
-            margin-bottom: 20px;
-            text-align: justify; /* Texto justificado */
-        }
-        .bio p {
-            margin: 10px 0;
-        }
-        .link {
-            font-size: 12px;
-            font-weight: bold;
-            letter-spacing: 0; /* Interletrado en 0 */
-            word-spacing: -0.5px; /* Reduce separación entre palabras */
-            text-align: justify; /* Texto justificado */
-        }
-        .link a {
-            color: #000000;
-            text-decoration: underline;
-        }
-        /* Media query para pantallas pequeñas (móviles) */
-        @media (max-width: 600px) {
-            .cover {
-                height: 250px; /* Ligeramente más pequeño en móviles */
-            }
-            .profile-pic {
-                width: 150px;
-                height: 150px;
-                bottom: -75px;
-                left: 5px; /* Alineado a la izquierda en móviles */
-            }
-            .content {
-                margin: 0 0 0 5px; /* Alineado a la izquierda en móviles */
-                padding: 15px;
-            }
-            .name {
-                margin-top: 80px; /* Ajuste para la foto de perfil más pequeña */
-                font-size: 18px; /* Ligeramente más pequeño en móviles */
-            }
-            .subtitle {
-                font-size: 10px;
-            }
-            .section-title {
-                font-size: 11px;
-            }
-            .bio {
-                font-size: 11px;
-            }
-            .link {
-                font-size: 11px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BioLink - Maria Barbara Zavala</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+    }
+    .cover {
+      width: 100%;
+      height: 300px;
+      background-color: #000000;
+      position: relative;
+    }
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 4px solid #000000;
+      position: absolute;
+      left: 10px;
+      bottom: -90px;
+      object-fit: cover;
+    }
+    .content {
+      max-width: 800px;
+      width: 90%;
+      margin: 0 0 0 10px;
+      padding: 20px;
+      text-align: left;
+    }
+    .name {
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 100px;
+      text-align: left;
+    }
+    .subtitle {
+      font-size: 14px;
+      margin: 5px 0;
+      text-align: left;
+    }
+    .section-title {
+      font-size: 14px;
+      font-weight: bold;
+      margin: 20px 0 10px;
+      text-align: left;
+    }
+    .bio {
+      font-size: 12px;
+      line-height: 1.5;
+      letter-spacing: 0;
+      word-spacing: -0.5px;
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+    .bio p {
+      margin: 10px 0;
+    }
+    .link {
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 0;
+      word-spacing: -0.5px;
+      text-align: justify;
+    }
+    .link a {
+      color: #000000;
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      .cover {
+        height: 250px;
+      }
+      .profile-pic {
+        width: 150px;
+        height: 150px;
+        bottom: -75px;
+        left: 5px;
+      }
+      .content {
+        margin: 0 0 0 5px;
+        padding: 15px;
+      }
+      .name {
+        margin-top: 80px;
+        font-size: 18px;
+      }
+      .subtitle {
+        font-size: 10px;
+      }
+      .section-title {
+        font-size: 11px;
+      }
+      .bio {
+        font-size: 11px;
+      }
+      .link {
+        font-size: 11px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="cover">
-        <img src="https://i.postimg.cc/43MX38jB/IMG-20250609-143313-822.webp" alt="Profile Picture" class="profile-pic">
-    </div>
-    <div class="content">
-        <div class="name">Maria Barbara Zavala</div>
-        <div class="subtitle">Mi blog personal y mis colecciones: Arte, fotografía y conocimiento.
-        </div>
-        <div class="section-title">Sobre mí</div>
-        <div class="bio">
-            <p>Piscis. Lectora. Creadora y fundadora:
-                <p></p><strong>Academia del conocimiento oculto</strong>. <strong>
-            <p>Maestra en conocimiento esotérico</strong>🜏 🜇 🜋</p>
-            <p>Diseño y hago Arte y fotografía con IA. Comparto mis diseños en páginas web, diseño gráfico digital con diferentes estilos y variedad de colores de mi academia y blog en conocimiento. Apasionada por el rock, blues, jazz, metal y electrónica. Le hago honor a mi nombre, adicta al café y al tono negro. Agnóstica, humanista, libre pensadora. Mi Ascendente en géminis me delata, eterna aprendiz.</p>
-            <p> 🜍🜁🜞No expongo mi vida, solo declaro mi destino.🜃Prefiero sabiduría vital que títulos efímeros.🜂</p>
-        </div>
+  <div class="cover">
+    <img src="https://i.postimg.cc/T38jSNNc/20250614-054752.jpg" alt="Foto de perfil" class="profile-pic">
+  </div>
+  <div class="content">
+    <div class="name">Maria Barbara Zavala</div>
+    <div class="subtitle">Mi blog personal y mis colecciones: Arte, fotografía y conocimiento.</div>
+    <div class="section-title">Sobre mí</div>
+    <div class="bio">
+      <p>Piscis. Lectora. Creadora:</p>
+      <p><strong>Academia del conocimiento oculto</strong>.</p>
+      <p><strong>Maestra en conocimiento esotérico</strong> 🜏 🜇 🜋</p>
+      <p>Mis colecciones: Doy cursos y servicios en: Filosofía, conocimiento, sabiduría, ocultismo, misticismo, espiritualidad y esoterismo.
+      <p>Tarot | Astrología | Numerología + Blog de aprendizaje, Mentorías y sesiones a través de Filosofía, Sabiduria, Conocimiento Esotérico, Oculto y Espiritual.
+      <p>Mentalidad de ambición consciente, motivación realista, disciplina mental, autoconciencia, autoliderazgo, autoconocimiento, autoestima y respeto propio.
+      <p>Para lograr mayor productividad, satisfacción personal, resiliencia, autoestima, facilita la gestión emocional, interpersonales, ayudar a establecer metas y alcanzar objetivos.
+      <p>Mis colecciones en libros, piezas de arte, fotografía, mis creaciones en IA, páginas web, diseño de colores, citas, frases, fragmentos, pensamientos, meditaciones, reflexiones, escritos, opiniones, análisis, aprendizaje, ensayos, literatura de diferentes autores, maestros espirituales y mi criterio personal sobre historia, cultura, diferentes tipos de filosofía, clásica, antigua, moderna: Diferentes tipos de 'ser', mentalidad, conocimiento esotérico y exotérico. Sigo aprendiendo, siempre en constante evolución.
+      <p>Comparto mi gusto por el rock, blues, jazz, metal y electrónica.
+      <p>Le hago honor a mi nombre, adicta al café y al tono negro. Agnóstica, humanista, libre pensadora. Mi Ascendente en géminis me delata, eterna aprendiz.</p>
+      <p>🜍🜁🜞No expongo mi vida, solo declaro mi destino.🜃Prefiero sabiduría vital que títulos efímeros. 🜂</p>
     </div>
 </body>
 </html>
